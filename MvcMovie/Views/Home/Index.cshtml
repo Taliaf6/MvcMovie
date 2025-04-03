@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Quiénes Somos";
+}
+
+<div class="hero-section">
+    <div class="overlay">
+        <div class="container text-center">
+            <img src="~/imagenes/fondo.png" alt="Logo de la Empresa" class="logo">
+            <h1 class="title">Quiénes somos</h1>
+            <p class="subtitle">Brindamos soluciones efectivas e innovadoras en logística y transporte.</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Sección principal con imagen de fondo */
+    .hero-section {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        background: url('/imagenes/somos.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+   /* Fondo semitransparente para mejorar la visibilidad del texto */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Agrega un fondo negro con opacidad */
+}
+
+.logo {
+    width: 500px;/* Ajusta el ancho */
+    width: 300px;
+    height:100px; /*Manten la proporción */
+    object-fit: contain; /* Asegura que la imagen se ajuste sin recortarse */
+}
+
+
+    /* Título */
+    .title {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    /* Subtítulo */
+    .subtitle {
+        font-size: 1.5rem;
+    }
+</style>

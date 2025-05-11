@@ -6,8 +6,10 @@
     "\\MvcMovie\\Models",
     "\\MvcMovie\\Views",
     "\\MvcMovie\\Views\\Home",
-    "\\MvcMovie\\Views\\Shared"
+    "\\MvcMovie\\Views\\Shared",
+    "\\MvcMovie\\wwwroot",
+    "\\MvcMovie\\wwwroot\\css"
   ],
-  "SelectedNode": "\\MvcMovie\\Views\\Home\\contacto.cshtml",
+  "SelectedNode": "\\MvcMovie\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
